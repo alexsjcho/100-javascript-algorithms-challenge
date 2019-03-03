@@ -2,7 +2,6 @@ function isLucky(n: number): boolean {
   const luckyN = n.toString();
   const half = luckyN.length / 2;
   const firstHalf = getTotal(luckyN.substring(0, half));
-
   const secondHalf = luckyN
     .substring(0, half)
     .split("")
